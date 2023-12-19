@@ -1,0 +1,155 @@
+/* Additional CSS Styles */
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    max-width: 45%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+form label, form textarea, form input[type="text"], form input[type="email"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form textarea {
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+a img {
+    vertical-align: left;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    max-width: 45%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+form label, form textarea, form input[type="text"], form input[type="email"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form textarea {
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; /* Adjust the font size */
+    margin-right: 10px;
+    display: inline-block; /* Ensures it's a block element */
+    margin-top: 10px; /* Add margin for positioning */
+}
+
+a img {
+    vertical-align: left;
+    width: 20px; /* Set the width of the arrow image */
+}
